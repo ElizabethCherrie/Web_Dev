@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="css/HopsessOpus.css">
+	<title>Hopsess Opus Contact</title>
+</head>
+<body>
+<header>
+    <table style="width:100%">
+		<tr>
+			<td width = 50%><a href="HopsessOpusHome.html" class = "a_style"><b>Hopsess_Opus</b></a></td>
+			<td width = 7.5%></td>
+		    <td width = 5%><a href="HopsessOpusHome.html">Home</a></td>
+		    <td width = 5%><a href="HopsessOpusShop.html">Shop</a></td>
+			<td width = 5%><a href="HopsessOpusAbout.html">About</a></td>
+			<td width = 5%><a href="HopsessOpusContact.html">Contact</a></td>
+			<td width = 17.5%></td>
+		</tr>
+    </table>
+</header>
+<table style="width:100%" class = "wrapper">
+<tr>
+<td width = 10%></td>
+<td width = 38%>
+<p class = "paragraph_3">Our Location</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.1071710914407!2d-0.07028878748545643!3d51.58459917171346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9029990840989%3A0x5c5e73c5feb99c59!2sPage%20Green%20Post%20Office!5e0!3m2!1sru!2suk!4v1711216741846!5m2!1sru!2suk"
+allowfullscreen="True" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="450px" width="550px" title="Our Location."></iframe>
+</td>
+<td width = 10%><a class = "paragraph_5">FAQ</a></td>
+<td width = 38%>
+	<form id = "form2">
+		<fieldset class = "fieldset_2">
+			<legend class = "legend_1">Contact</legend>
+			<table>
+				<tr>
+					<td><label for="fname">First name:</label></td>
+					<td><input type="text" id="fname" name="fname" required><br></td>
+				</tr>
+				<tr>
+					<td><label for="lname">Last name:</label></td>
+					<td><input type="text" id="lname" name="lname"><br></td>
+				</tr>
+				<tr>
+					<td><label for="validateEmail()">Email:</label></td>
+					<td><input type="email" id="email" name="email" required><br></td>
+				</tr>
+				<tr>
+					<td><label for="phone">Phone number:</label></td>
+					<td><input type="tel" id="phone" name="phone"><br></td>
+				</tr>
+				<tr>
+					<td><label for="Message">Message:</label></label></td>
+					<td><textarea name="comment" rows="10" cols="25" form="form1" required>Enter text here...</textarea></td>
+				</tr>
+				<tr>
+					<td><label for="fname" class = "legend_2">How would you like to hear back?</label></td>
+				</tr>
+				<tr>
+					<div class = "location_c">
+					<td>
+						<p><input type="checkbox" name="contact_sms" value="true">E-mail</p>
+					</td>
+					<td>
+					    <p><input type="checkbox" name="contact_email" value="true">SMS/Text Message</p>
+					</td>
+					<td>
+					    <p><input type="checkbox" name="contact_phone" value="true">Phone</p>
+					</td>
+					</div>
+			    </tr>
+			    <tr>
+					<td class = "inputer"><p><input type="submit" value="Send" onclick = "ValidateEmail()"></p></td>
+				</tr>
+			</table>
+		</fieldset>
+     </form>
+</td>
+<td width = 10%></td>
+</tr>
+</table>
+
+<div class="location_c">
+<a href="HopsessOpusShop.html">
+    <button class="button_set button_style">Back to the Shop</button>
+</a>
+</div>
+<footer>
+  <nav>
+	  <table style="width:100%" class = "location_c">
+		  <td width = 6%></td>
+		  <td width = 50%><p>Email us:&nbsp </p><a href = "mailto:Bettacherry77@gmail.com">Bettacherry77@gmail.com</a></td>
+		  <td width = 10%></td>
+		  <td width = 4%><div class="button-div" onclick = "Facebook()"><img class = "img" src="Images/Facebook_logo_1.png" alt="Facebook"></div></td>
+		  <td width = 4%><div class="button-div" onclick = "Instagram()"><img class = "img" src="Images/Instagram.svg.png" alt="Instagram"></div></td>
+		  <td width = 4%><div onclick = "Register()" class="tooltip"><img class = "img" src="Images/Register.png" alt="Register-image"><span class="tooltiptext">Register & Stay apdated.</span></div></td>
+		  <td width = 21%></td>
+	  </table>
+  </nav>
+</footer>
+<script>
+function Facebook() {
+  window.open("https://www.facebook.com/profile.php?id=61553267503747", "_blank");
+}
+function Instagram() {
+  window.open("https://www.instagram.com/hopsess_opus/", "_blank");
+}
+function Register() {
+  window.open("HopsessOpusRegister.html");
+}
+</script>
+</body>
+
